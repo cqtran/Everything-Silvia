@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EDA3F8A1E360D97006CB416 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA3F891E360D97006CB416 /* AppDelegate.swift */; };
+		7EDA3F8C1E360D97006CB416 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA3F8B1E360D97006CB416 /* ViewController.swift */; };
+		7EDA3F8F1E360D97006CB416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA3F8D1E360D97006CB416 /* Main.storyboard */; };
+		7EDA3F921E360D97006CB416 /* Everything_Silvia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA3F901E360D97006CB416 /* Everything_Silvia.xcdatamodeld */; };
+		7EDA3F941E360D97006CB416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA3F931E360D97006CB416 /* Assets.xcassets */; };
+		7EDA3F971E360D97006CB416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA3F951E360D97006CB416 /* LaunchScreen.storyboard */; };
+		7EDA3FA21E360D98006CB416 /* Everything_SilviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA3FA11E360D98006CB416 /* Everything_SilviaTests.swift */; };
+		7EDA3FAD1E360D98006CB416 /* Everything_SilviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA3FAC1E360D98006CB416 /* Everything_SilviaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EDA3F9E1E360D98006CB416 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EDA3F7E1E360D97006CB416 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EDA3F851E360D97006CB416;
+			remoteInfo = "Everything Silvia";
+		};
+		7EDA3FA91E360D98006CB416 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EDA3F7E1E360D97006CB416 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EDA3F851E360D97006CB416;
+			remoteInfo = "Everything Silvia";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EDA3F861E360D97006CB416 /* Everything Silvia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Everything Silvia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDA3F891E360D97006CB416 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EDA3F8B1E360D97006CB416 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EDA3F8E1E360D97006CB416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EDA3F911E360D97006CB416 /* Everything_Silvia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Everything_Silvia.xcdatamodel; sourceTree = "<group>"; };
+		7EDA3F931E360D97006CB416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EDA3F961E360D97006CB416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EDA3F981E360D97006CB416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EDA3F9D1E360D98006CB416 /* Everything SilviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Everything SilviaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDA3FA11E360D98006CB416 /* Everything_SilviaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Everything_SilviaTests.swift; sourceTree = "<group>"; };
+		7EDA3FA31E360D98006CB416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EDA3FA81E360D98006CB416 /* Everything SilviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Everything SilviaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDA3FAC1E360D98006CB416 /* Everything_SilviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Everything_SilviaUITests.swift; sourceTree = "<group>"; };
+		7EDA3FAE1E360D98006CB416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EDA3F831E360D97006CB416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDA3F9A1E360D98006CB416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDA3FA51E360D98006CB416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EDA3F7D1E360D97006CB416 = {
+			isa = PBXGroup;
+			children = (
+				7EDA3F881E360D97006CB416 /* Everything Silvia */,
+				7EDA3FA01E360D98006CB416 /* Everything SilviaTests */,
+				7EDA3FAB1E360D98006CB416 /* Everything SilviaUITests */,
+				7EDA3F871E360D97006CB416 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EDA3F871E360D97006CB416 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EDA3F861E360D97006CB416 /* Everything Silvia.app */,
+				7EDA3F9D1E360D98006CB416 /* Everything SilviaTests.xctest */,
+				7EDA3FA81E360D98006CB416 /* Everything SilviaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EDA3F881E360D97006CB416 /* Everything Silvia */ = {
+			isa = PBXGroup;
+			children = (
+				7EDA3F891E360D97006CB416 /* AppDelegate.swift */,
+				7EDA3F8B1E360D97006CB416 /* ViewController.swift */,
+				7EDA3F8D1E360D97006CB416 /* Main.storyboard */,
+				7EDA3F931E360D97006CB416 /* Assets.xcassets */,
+				7EDA3F951E360D97006CB416 /* LaunchScreen.storyboard */,
+				7EDA3F981E360D97006CB416 /* Info.plist */,
+				7EDA3F901E360D97006CB416 /* Everything_Silvia.xcdatamodeld */,
+			);
+			path = "Everything Silvia";
+			sourceTree = "<group>";
+		};
+		7EDA3FA01E360D98006CB416 /* Everything SilviaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EDA3FA11E360D98006CB416 /* Everything_SilviaTests.swift */,
+				7EDA3FA31E360D98006CB416 /* Info.plist */,
+			);
+			path = "Everything SilviaTests";
+			sourceTree = "<group>";
+		};
+		7EDA3FAB1E360D98006CB416 /* Everything SilviaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EDA3FAC1E360D98006CB416 /* Everything_SilviaUITests.swift */,
+				7EDA3FAE1E360D98006CB416 /* Info.plist */,
+			);
+			path = "Everything SilviaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EDA3F851E360D97006CB416 /* Everything Silvia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EDA3FB11E360D98006CB416 /* Build configuration list for PBXNativeTarget "Everything Silvia" */;
+			buildPhases = (
+				7EDA3F821E360D97006CB416 /* Sources */,
+				7EDA3F831E360D97006CB416 /* Frameworks */,
+				7EDA3F841E360D97006CB416 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Everything Silvia";
+			productName = "Everything Silvia";
+			productReference = 7EDA3F861E360D97006CB416 /* Everything Silvia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EDA3F9C1E360D98006CB416 /* Everything SilviaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EDA3FB41E360D98006CB416 /* Build configuration list for PBXNativeTarget "Everything SilviaTests" */;
+			buildPhases = (
+				7EDA3F991E360D98006CB416 /* Sources */,
+				7EDA3F9A1E360D98006CB416 /* Frameworks */,
+				7EDA3F9B1E360D98006CB416 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EDA3F9F1E360D98006CB416 /* PBXTargetDependency */,
+			);
+			name = "Everything SilviaTests";
+			productName = "Everything SilviaTests";
+			productReference = 7EDA3F9D1E360D98006CB416 /* Everything SilviaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EDA3FA71E360D98006CB416 /* Everything SilviaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EDA3FB71E360D98006CB416 /* Build configuration list for PBXNativeTarget "Everything SilviaUITests" */;
+			buildPhases = (
+				7EDA3FA41E360D98006CB416 /* Sources */,
+				7EDA3FA51E360D98006CB416 /* Frameworks */,
+				7EDA3FA61E360D98006CB416 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EDA3FAA1E360D98006CB416 /* PBXTargetDependency */,
+			);
+			name = "Everything SilviaUITests";
+			productName = "Everything SilviaUITests";
+			productReference = 7EDA3FA81E360D98006CB416 /* Everything SilviaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EDA3F7E1E360D97006CB416 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Cameron Tran";
+				TargetAttributes = {
+					7EDA3F851E360D97006CB416 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7EDA3F9C1E360D98006CB416 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7EDA3F851E360D97006CB416;
+					};
+					7EDA3FA71E360D98006CB416 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7EDA3F851E360D97006CB416;
+					};
+				};
+			};
+			buildConfigurationList = 7EDA3F811E360D97006CB416 /* Build configuration list for PBXProject "Everything Silvia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EDA3F7D1E360D97006CB416;
+			productRefGroup = 7EDA3F871E360D97006CB416 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EDA3F851E360D97006CB416 /* Everything Silvia */,
+				7EDA3F9C1E360D98006CB416 /* Everything SilviaTests */,
+				7EDA3FA71E360D98006CB416 /* Everything SilviaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EDA3F841E360D97006CB416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDA3F971E360D97006CB416 /* LaunchScreen.storyboard in Resources */,
+				7EDA3F941E360D97006CB416 /* Assets.xcassets in Resources */,
+				7EDA3F8F1E360D97006CB416 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDA3F9B1E360D98006CB416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDA3FA61E360D98006CB416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EDA3F821E360D97006CB416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDA3F8C1E360D97006CB416 /* ViewController.swift in Sources */,
+				7EDA3F8A1E360D97006CB416 /* AppDelegate.swift in Sources */,
+				7EDA3F921E360D97006CB416 /* Everything_Silvia.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDA3F991E360D98006CB416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDA3FA21E360D98006CB416 /* Everything_SilviaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDA3FA41E360D98006CB416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDA3FAD1E360D98006CB416 /* Everything_SilviaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EDA3F9F1E360D98006CB416 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EDA3F851E360D97006CB416 /* Everything Silvia */;
+			targetProxy = 7EDA3F9E1E360D98006CB416 /* PBXContainerItemProxy */;
+		};
+		7EDA3FAA1E360D98006CB416 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EDA3F851E360D97006CB416 /* Everything Silvia */;
+			targetProxy = 7EDA3FA91E360D98006CB416 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EDA3F8D1E360D97006CB416 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EDA3F8E1E360D97006CB416 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EDA3F951E360D97006CB416 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EDA3F961E360D97006CB416 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EDA3FAF1E360D98006CB416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EDA3FB01E360D98006CB416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EDA3FB21E360D98006CB416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Everything Silvia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cameron.Everything-Silvia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7EDA3FB31E360D98006CB416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Everything Silvia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cameron.Everything-Silvia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7EDA3FB51E360D98006CB416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Everything SilviaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cameron.Everything-SilviaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Everything Silvia.app/Everything Silvia";
+			};
+			name = Debug;
+		};
+		7EDA3FB61E360D98006CB416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Everything SilviaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cameron.Everything-SilviaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Everything Silvia.app/Everything Silvia";
+			};
+			name = Release;
+		};
+		7EDA3FB81E360D98006CB416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Everything SilviaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cameron.Everything-SilviaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Everything Silvia";
+			};
+			name = Debug;
+		};
+		7EDA3FB91E360D98006CB416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Everything SilviaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cameron.Everything-SilviaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Everything Silvia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EDA3F811E360D97006CB416 /* Build configuration list for PBXProject "Everything Silvia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDA3FAF1E360D98006CB416 /* Debug */,
+				7EDA3FB01E360D98006CB416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EDA3FB11E360D98006CB416 /* Build configuration list for PBXNativeTarget "Everything Silvia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDA3FB21E360D98006CB416 /* Debug */,
+				7EDA3FB31E360D98006CB416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7EDA3FB41E360D98006CB416 /* Build configuration list for PBXNativeTarget "Everything SilviaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDA3FB51E360D98006CB416 /* Debug */,
+				7EDA3FB61E360D98006CB416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7EDA3FB71E360D98006CB416 /* Build configuration list for PBXNativeTarget "Everything SilviaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDA3FB81E360D98006CB416 /* Debug */,
+				7EDA3FB91E360D98006CB416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7EDA3F901E360D97006CB416 /* Everything_Silvia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7EDA3F911E360D97006CB416 /* Everything_Silvia.xcdatamodel */,
+			);
+			currentVersion = 7EDA3F911E360D97006CB416 /* Everything_Silvia.xcdatamodel */;
+			path = Everything_Silvia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7EDA3F7E1E360D97006CB416 /* Project object */;
+}

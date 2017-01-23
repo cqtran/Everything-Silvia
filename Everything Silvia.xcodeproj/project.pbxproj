@@ -15,6 +15,7 @@
 		7EDA3F971E360D97006CB416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA3F951E360D97006CB416 /* LaunchScreen.storyboard */; };
 		7EDA3FA21E360D98006CB416 /* Everything_SilviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA3FA11E360D98006CB416 /* Everything_SilviaTests.swift */; };
 		7EDA3FAD1E360D98006CB416 /* Everything_SilviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA3FAC1E360D98006CB416 /* Everything_SilviaUITests.swift */; };
+		7EDA3FBB1E362A86006CB416 /* button_border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA3FBA1E362A86006CB416 /* button_border.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7EDA3FA81E360D98006CB416 /* Everything SilviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Everything SilviaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDA3FAC1E360D98006CB416 /* Everything_SilviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Everything_SilviaUITests.swift; sourceTree = "<group>"; };
 		7EDA3FAE1E360D98006CB416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EDA3FBA1E362A86006CB416 /* button_border.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = button_border.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				7EDA3F891E360D97006CB416 /* AppDelegate.swift */,
 				7EDA3F8B1E360D97006CB416 /* ViewController.swift */,
 				7EDA3F8D1E360D97006CB416 /* Main.storyboard */,
+				7EDA3FBA1E362A86006CB416 /* button_border.swift */,
 				7EDA3F931E360D97006CB416 /* Assets.xcassets */,
 				7EDA3F951E360D97006CB416 /* LaunchScreen.storyboard */,
 				7EDA3F981E360D97006CB416 /* Info.plist */,
@@ -265,6 +268,7 @@
 				7EDA3F8C1E360D97006CB416 /* ViewController.swift in Sources */,
 				7EDA3F8A1E360D97006CB416 /* AppDelegate.swift in Sources */,
 				7EDA3F921E360D97006CB416 /* Everything_Silvia.xcdatamodeld in Sources */,
+				7EDA3FBB1E362A86006CB416 /* button_border.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
